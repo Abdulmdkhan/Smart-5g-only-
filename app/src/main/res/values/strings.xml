@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">5G Only Network Mode</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_optimizer">Smart Optimizer</string>
+    <string name="title_profiles">Location Profiles</string>
+    <string name="title_help">Help &amp; Device List</string>
+    
+    <!-- Network Categories -->
+    <string name="net_mode_nr">5G Only (NR Only)</string>
+    <string name="net_mode_lte">4G Only (LTE Only)</string>
+    <string name="net_mode_wcdma">3G Only (WCDMA Only)</string>
+    <string name="net_mode_gsm">2G Only (GSM Only)</string>
+    <string name="net_mode_auto">Auto 5G/4G/3G/2G</string>
+    
+    <!-- Options & Subtitle -->
+    <string name="active_sim">Active Sim Slot</string>
+    <string name="sim_1">SIM Cell Slot 1</string>
+    <string name="sim_2">SIM Cell Slot 2</string>
+    <string name="pref_network_mode">Preferred Band Control</string>
+    <string name="btn_apply">Apply Selected Mode</string>
+    <string name="btn_launch_hidden">Launch Hidden System Page</string>
+    <string name="err_no_permission">Location access permission required to configure geographical profiles!</string>
+    
+    <!-- Smart Optimizer -->
+    <string name="opt_title">Smart Auto-Switch Optimizer</string>
+    <string name="opt_pro_required">This is a premium PRO feature!</string>
+    <string name="opt_btn_unlock">Unlock Premium Optimization</string>
+    <string name="opt_battery">Battery Saver Switcher (&lt;15% -> 4G)</string>
+    <string name="opt_signal">Signal Strength Optimizer (&lt;-110dBm -> 4G)</string>
+    <string name="opt_location">Location Base Auto-Switching Profiles</string>
+    <string name="opt_carmode">Car Mode (Driving Stability LTE Lock)</string>
+    <string name="opt_safety">Safety Fallback Mode (Always Active)</string>
+    
+    <!-- Speed Test -->
+    <string name="speedtest_title">Speed Diagnostics</string>
+    <string name="speedtest_start">Start Diagnostic Test</string>
+    <string name="speedtest_running">Running Test Streams...</string>
+    
+    <!-- Help Settings -->
+    <string name="help_shizuku">Shizuku API Setup</string>
+    <string name="help_adb">ADB Mode Control Guide</string>
+    <string name="device_database">Supported Device Models (100% Verified)</string>
+</resources>

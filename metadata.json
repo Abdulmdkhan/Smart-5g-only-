@@ -1,0 +1,6 @@
+{
+  "name": "5G Only Network Mode",
+  "description": "An advanced, smart, and future-proof network selector supporting 5G Only, 4G Only, smart auto-switching, battery/signal-based optimization, speed test, and Shizuku/ADB integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

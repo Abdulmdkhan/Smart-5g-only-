@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#202124"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5G Network Mode"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/widget_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current: Auto"
+        android:textColor="#C4C6CF"
+        android:textSize="11sp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_widget_auto"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:text="Auto"
+            android:textSize="10sp"
+            android:backgroundTint="#33A853"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="4dp" />
+
+        <Button
+            android:id="@+id/btn_widget_4g"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:text="4G"
+            android:textSize="10sp"
+            android:backgroundTint="#4285F4"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="4dp" />
+
+        <Button
+            android:id="@+id/btn_widget_5g"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:text="5G"
+            android:textSize="10sp"
+            android:backgroundTint="#EA4335"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout>
